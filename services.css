@@ -1,0 +1,43 @@
+/* Services Page Styling */
+
+.services {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.services h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Services Cards */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

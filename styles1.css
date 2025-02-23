@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('Background Image of Home Page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Logo */
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-left: 80px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Services Section */
+#services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.1);
+}
+
+/* About Us */
+#about {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
